@@ -8,13 +8,13 @@ Entry for the [make.fun bounty](https://make.fun/bounty/u-swift-raven-16-the-lon
 
 ## The line
 
-> They write the laws for the algorithms that will run the future, yet their own AI bill is still a Word file named FINAL_v7_ACTUALLY_FINAL.docx, waiting for an intern to turn it into a PDF.
+> They write the laws for the algorithms that will run the future, yet their own AI bill is still a Word file named FINAL_v7_ACTUALLY_FINAL.docx — the only intern who could convert it quit in March.
 
-188 characters, one sentence.
+196 characters, one sentence. Revised 24 Nov 2026: the original ending ("waiting for an intern to turn it into a PDF") restated the brief instead of punching, so the kicker is now the dated fact that the only person who could convert it quit in March.
 
 ## How it runs
 
-`python3 main.py` (Python 3, stdlib only) writes the line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–320 character gate. The full decision record — five candidates weighed, two genuine writing passes on the chosen line — is the docstring at the top of `main.py`.
+`python3 main.py` (Python 3, stdlib only) writes the line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–320 character gate. The full decision record — five candidates weighed, two genuine writing passes on the chosen line, plus a 24 Nov 2026 revision pass that replaced the ending — is the docstring at the top of `main.py`.
 
 ## Referral
 

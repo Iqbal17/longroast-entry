@@ -88,6 +88,45 @@ Why E wins, criterion by criterion:
 
 Final line: 188 characters, one sentence, inside the 1-320 gate
 (hand-counted; the program asserts the gate on every run).
+
+REVISION PASS (24 Nov 2026)
+
+Critique of the chosen line, honestly:
+  The opening, the "yet" turn, and the filename are all strong --
+  but the ending fails the writer's own test. Candidate B was
+  rejected because "into a PDF" as the last words is "the brief
+  restated, not a punch" -- and the chosen line does the same thing:
+  its last words are "turn it into a PDF", softened only by
+  "waiting for an intern". "Still" and "waiting" also double up the
+  same stalled-state signal. The sentence needed last words that
+  are a new fact, not the brief repeated.
+
+Fresh alternative weighed (F, rejected):
+  "They write the laws for the algorithms that will run the future,
+  yet their own AI bill is still a Word file named
+  FINAL_v7_ACTUALLY_FINAL.docx, printed out and faxed to the
+  committee." (183 characters)
+  The fax is a vivid, unexpected image and "faxed to the committee"
+  lands as a punch -- but it is a second old-technology gag stacked
+  on the Word file, and the punch is about the office's workaround
+  rather than the lawmakers' competence. Two verbs ("printed out
+  and faxed") where one image would do.
+
+Revision (kept the opening and the filename, replaced the ending):
+  Before: "...waiting for an intern to turn it into a PDF."
+  After:  "... — the only intern who could convert it quit in
+          March."
+  The em dash snaps the sentence into its kicker: the institution
+  has not merely stalled, it has lost the only person who could do
+  the trivial thing. "Quit in March" is dated and specific, so the
+  bill has been stuck for months; the last words are a fact the
+  judge has not seen before, not the brief restated. Criterion 4
+  (punch on the last few words) and criterion 3 (competence) both
+  improve; criteria 1, 2 and 5 are unchanged.
+
+Final line after revision: 196 characters, one sentence, inside the
+1-320 gate (hand-counted; the program asserts the gate on every
+run).
 """
 
 import os
@@ -96,8 +135,8 @@ import sys
 LINE = (
     "They write the laws for the algorithms that will run the future, "
     "yet their own AI bill is still a Word file named "
-    "FINAL_v7_ACTUALLY_FINAL.docx, waiting for an intern to turn it "
-    "into a PDF."
+    "FINAL_v7_ACTUALLY_FINAL.docx \u2014 the only intern who could "
+    "convert it quit in March."
 )
 
 
